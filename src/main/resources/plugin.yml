@@ -1,0 +1,4 @@
+name: Items
+version: '${project.version}'
+main: com.stiggles.items.Main
+api-version: 1.19
