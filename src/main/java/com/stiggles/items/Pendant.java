@@ -27,6 +27,10 @@ public class Pendant implements Listener {
 
     public Pendant (Main main) {
         this.main = main;
+        createItem ();
+    }
+
+    private void createItem () {
         ItemStack is = pendantItem;
         ItemMeta im = is.getItemMeta();
         im.setDisplayName(pendantName);

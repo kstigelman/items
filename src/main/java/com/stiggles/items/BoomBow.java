@@ -33,6 +33,7 @@ public class BoomBow implements Listener {
     public static String getName () {
         return pendantName;
     }
+
     public void givePlayerItem (Player p) {
         p.getInventory().addItem(getBow ());
     }
