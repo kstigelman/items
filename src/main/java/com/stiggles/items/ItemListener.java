@@ -35,7 +35,6 @@ public class ItemListener implements Listener {
         if (class_type.equals("vehicle")) {
             if (p.isInsideVehicle())
                 return;
-
         }
 
 

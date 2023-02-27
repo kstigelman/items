@@ -1,5 +1,6 @@
 package com.stiggles.items;
 
+import org.bukkit.Bukkit;
 import org.bukkit.NamespacedKey;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -13,7 +14,8 @@ public final class Main extends JavaPlugin {
     @Override
     public void onEnable() {
         // Plugin startup logic
-
+        Bukkit.getPluginManager().registerEvents(new ItemListener(this), this);
+        Bukkit.getPluginManager().registerEvents(new ProjectileListener(this), this);
     }
 
     @Override

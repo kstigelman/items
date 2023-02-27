@@ -49,6 +49,7 @@ public class Pendant implements Listener {
     public boolean listen (PlayerInteractEvent e) {
         return true;
     }
+
     @EventHandler
     public void onPlayerInteract (PlayerInteractEvent e) {
 
